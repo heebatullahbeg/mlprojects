@@ -45,33 +45,33 @@ This highlights the most prolific authors represented in the dataset.
 
 ## 🔄 Data Pipeline
 
-**Data Loading and Preprocessing**
+1. **Data Loading and Preprocessing**
 
 Load the dataset using pandas.
 Handle missing values in the Description, Genres, and Author columns by replacing them with empty strings.
 
-**Feature Engineering**
+2. **Feature Engineering**
 
 Combine key textual features (Description, Genres, Author) into a single feature set for each book.
 
-**TF-IDF Vectorization**
+3. **TF-IDF Vectorization**
 
 Convert textual data into numerical vectors using the TF-IDF technique to capture the importance of words in the dataset.
 
-**Similarity Matrix**
+4. **Similarity Matrix**
 
 Compute cosine similarity between book feature vectors to measure their similarity.
 
-**Recommendation System**
+5. **Recommendation System**
 
 Given a book title, find the closest matching title using difflib.
 Rank books based on similarity scores and return the top recommendations.
 
-**Data Visualizations**
+6. **Data Visualizations**
 
 Generate visualizations for key trends and save them as PNG files.
 
-**Exporting Results**
+7. **Exporting Results**
 
 Export book recommendations to a CSV file for future reference.
 
