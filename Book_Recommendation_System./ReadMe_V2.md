@@ -107,3 +107,5 @@ Python: Core programming language.
 Run the app and input a book title (e.g., To Kill a Mockingbird).
 View the top 30 book recommendations along with detailed visualizations.
 Download a CSV file of the recommendations.
+
+![image](https://github.com/user-attachments/assets/20baa9f4-2180-4675-8be4-2e0ed7f04958)
