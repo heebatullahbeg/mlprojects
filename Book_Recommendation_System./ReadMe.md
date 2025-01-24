@@ -39,3 +39,7 @@ Compute pairwise cosine similarity between all book feature vectors to create a 
 2. Find the closest matching title.
 3. Retrieve similar books from the precomputed cosine similarity matrix.
 4. Recommend the top 30 similar books and display their titles.
+
+### Output
+
+![image](https://github.com/user-attachments/assets/3a16f9a6-c66a-47b6-b506-cff3adc78271)
