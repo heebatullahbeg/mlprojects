@@ -1,2 +1,1 @@
-# mlprojects
-Machine learning projects
+A guide to machine learning and data science projects
