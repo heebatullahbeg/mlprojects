@@ -21,11 +21,17 @@ The dataset contains the following columns:
 
 Risk Factor - a derived feature is created based on the patient's age, blood pressure, and cholesterol levels to enhance predictive performance.
 
+
+
 ## Data Preprocessing
 
 ![image](https://github.com/user-attachments/assets/636e4325-c59a-4b8d-948e-47dd8f06ea9a)
 
 The above image represents the overall workflow of the project.
+
+![image](https://github.com/user-attachments/assets/427c66fe-ef04-463b-a722-e7525b087c17)
+
+_Before processing_
 
 **Encoding Features**
 
@@ -34,7 +40,12 @@ The above image represents the overall workflow of the project.
 3. Target variable (Outcome Variable) was mapped to Positive = 1 and Negative = 0.
 
 **Feature Scaling**
+
 Numerical features (e.g., Age, Risk Factor) were standardized using StandardScaler.
+
+![image](https://github.com/user-attachments/assets/67469c5b-7c1c-4a38-a6ac-a669c61355e2)
+
+_After processing_
 
 ### Train-Test Split
 
@@ -55,7 +66,9 @@ Best XGBoost parameters: {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators':
 Best CatBoost parameters: {'depth': 10, 'iterations': 500, 'learning_rate': 0.01}
 
 ### Evaluation Metrics
+
 For evaluation I used the following metrics:
+
 1. Accuracy
 2. Precision, Recall, F1-Score (via Classification Report)
 3. Confusion Matrix
