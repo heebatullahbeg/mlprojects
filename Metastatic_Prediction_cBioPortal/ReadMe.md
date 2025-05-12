@@ -83,9 +83,13 @@ Evaluation Metrics: Accuracy, ROC-AUC, Precision-Recall.
 
 #### Model Performance:
 Model	Accuracy	ROC-AUC	Precision	Recall
+
 Logistic Regression	62.8%	0.67	0.61	0.59
+
 Random Forest	59.7%	0.63	0.58	0.53
+
 XGBoost	57.5%	0.61	0.55	0.51
+
 SVM	60.6%	0.65	0.59	0.55
 
 ![image](https://github.com/user-attachments/assets/fe61c9c7-5126-4692-bd27-d7311931229a)
