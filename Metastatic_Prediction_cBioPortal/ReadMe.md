@@ -2,7 +2,7 @@
 This project aims to predict cancer metastasis (spread of cancer to other organs) using genomic, clinical, and symptom data. The goal is to identify key predictors of metastasis and develop a model to assist clinicians in early intervention. The best-performing model achieved 64.2% accuracy using clinical and symptom features, with logistic regression as the optimal algorithm. Below is a detailed breakdown of the methodology, results, and insights.
 
 ## Dataset Overview
-Source: [Esophagogastric Cancer (MSK, J Natl Cancer Inst 2023)](url)
+Source: [Esophagogastric Cancer (MSK, J Natl Cancer Inst 2023)](https://www.cbioportal.org/study/summary?id=egc_msk_2023)
 
 #### Target Variable:
 
